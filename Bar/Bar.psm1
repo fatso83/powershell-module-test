@@ -1,10 +1,9 @@
-Write-Output "Oh, hello there. You are now loading the Bar module"
+Write-Host "Oh, hello there. You are now loading the Bar module"
 
 # all function members exported by default
-function Foo {
-    param()
-    }
-    {
-        Write-Output "foo says hi"
-    }
+function BarHello {
+param() {}
+{
+Bar says hello
+}
 }

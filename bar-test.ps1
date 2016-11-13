@@ -6,3 +6,7 @@ $ScriptPath = Split-Path $MyInvocation.InvocationName
 $env:PSModulePath = $ScriptPath
 
 Import-Module Bar
+
+# Call the imported module
+$res = BarHello
+Write-Host $res
