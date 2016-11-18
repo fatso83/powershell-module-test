@@ -1,9 +1,11 @@
 # Powershell module loading test
 
 This is a demo of how to load a module in Powershell.
-It also shows a bug in the Unix powershell implementation of version 6 (alpha, build 12),
-as it never finds the module.
-It works perfectly in Windows.
+<s>It also shows a bug in the Unix powershell implementation of version 6 (alpha, build 12),
+as it never finds the module.</s>. 
+
+It works perfectly in Windows, Mac and Linux. If you cannot get module loading to work in 
+unices like OS X ensure that you write the module path _in all upper case_. 
 
 ## Running it
 ```
