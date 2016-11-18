@@ -6,7 +6,7 @@ as it never finds the module.</s>.
 
 It works perfectly in Windows, Mac and Linux. If you cannot get module loading to work in 
 unices like OS X ensure that you write the module path _in all upper case_.  See
-PowerShell/PowerShell#2677 for background info on `PSMODULEPATH`.
+[PowerShell/PowerShell#2677](https://github.com/PowerShell/PowerShell/issues/2677) for background info on `PSMODULEPATH`.
 
 ## Running it
 ```
