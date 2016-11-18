@@ -5,7 +5,8 @@ This is a demo of how to load a module in Powershell.
 as it never finds the module.</s>. 
 
 It works perfectly in Windows, Mac and Linux. If you cannot get module loading to work in 
-unices like OS X ensure that you write the module path _in all upper case_. 
+unices like OS X ensure that you write the module path _in all upper case_.  See
+PowerShell/PowerShell#2677 for background info on `PSMODULEPATH`.
 
 ## Running it
 ```
